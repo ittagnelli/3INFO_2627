@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="it"> 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Porrino Vero Andrea" />
+    <meta name="description" content="Pagina HTML" />
+    <meta name="keywords" content="pagina, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100"> 
+    <title>Prima pagina HTML</title> 
+    <style>
+      body {background-color: rgb(7, 8, 8);}
+      h1 {color: rgb(237, 237, 241);}
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "STRUTTURA BASE DI UNA PAGINA WEB";
+      }
+    </script>
+</head>
+
+<body>
+    <center>
+        <h1 id="titolo">Pagina di Porrino Vero</h1>
+        <br/><br/>
+        <img src="https://source.unsplash.com/collection/94734566/1920x1080" width="60%"/>
+        <div><button type="button" onclick="myFunction()">Prova a premere</button></div>
+    </center>
+</body>
+</html>
